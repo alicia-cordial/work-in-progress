@@ -35,7 +35,8 @@ p
   padding: 15px;
   border-style: solid;
   border-color: white;
-  background-color: transparent;
+  opacity: 1.5;
+  background-color: pink;
   text-align: center;
   border-radius: 25px;
   text-shadow: 1px 1px 2px black;
