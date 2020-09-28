@@ -1,30 +1,13 @@
 body
 {
-    background-image: url(cesar.jpg);
+    background-image: url(cesar1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
-}
-
-header {
-  display: flex;
-  justify-content: space-around;
-    
+    background-position: center;
 }
 
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-
-li {
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: right;
-}
 
 h1 
 {
@@ -40,61 +23,20 @@ p
     text-shadow: 5px 5px 10px white;
     border-radius: 10px;
     text-align: center;
-    font-size: 200%
+    font-size: 200%;
+    font-family: sans-serif;
 }
 
-footer
-{
-    background-color: black;
-    position:absolute;
-    bottom:0;
-    width:100%;
-    padding-top:10px;
-    height:50px;
-    border-radius: 10px;
-}
-
-a
-{
-    color:white;
-}
-
-a:hover {
-  color: #ffcaab;
-}
 
 #container {
-  margin: 20px;
+  margin: 80px;
   margin-left: 20%;
   margin-right: 20%;
   padding: 15px;
   border-style: solid;
-  border-color: white;
-  background-color: #f7f1e4da;
+  border-color: black;
+  background-color: transparent;
   text-align: center;
   border-radius: 25px;
-}
-
-#listeNavTop {
-  display: flex;
-  background-color: black;
-  padding: 20px;
-  font-family: "Space Mono", monospace;
-    text-shadow: 1px 1px 2px black;
-    border-radius: 10px;
-}
-
-
-#footerCesar
-{
-	text-align: center;
-	margin-top: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-
-#footerCesar li { 
-	display: inline-block;
-    color: white;
+  text-shadow: 1px 1px 2px black;
 }
