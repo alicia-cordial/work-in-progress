@@ -1,8 +1,8 @@
 body
 {
     background-image: url(cesar1.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: 20%;
+    background-repeat: repeat;
     background-color: black;
     background-position: center;
 }
