@@ -2,7 +2,8 @@ body
 {
     background-image: url(cesar.jpg);
     background-size: 100%;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 header {
@@ -30,14 +31,16 @@ h1
     color: red;
     text-align: center;
     font-family: monospace;
+    font-size: 400%;
 }
 
 p
 {
     color: solid black;
-    text-shadow: 1px 1px 2px white;
+    text-shadow: 5px 5px 10px white;
     border-radius: 10px;
     text-align: center;
+    font-size: 200%
 }
 
 footer
@@ -51,6 +54,26 @@ footer
     border-radius: 10px;
 }
 
+a
+{
+    color:white;
+}
+
+a:hover {
+  color: #ffcaab;
+}
+
+#container {
+  margin: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 15px;
+  border-style: solid;
+  border-color: white;
+  background-color: #f7f1e4da;
+  text-align: center;
+  border-radius: 25px;
+}
 
 #listeNavTop {
   display: flex;
@@ -60,7 +83,6 @@ footer
     text-shadow: 1px 1px 2px black;
     border-radius: 10px;
 }
-
 
 
 #footerCesar
@@ -74,4 +96,5 @@ footer
 
 #footerCesar li { 
 	display: inline-block;
+    color: white;
 }
