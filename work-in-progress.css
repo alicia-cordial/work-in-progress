@@ -28,22 +28,27 @@ li {
 h1 
 {
     color: red;
+    text-align: center;
+    font-family: monospace;
 }
 
 p
 {
     color: solid black;
     text-shadow: 1px 1px 2px white;
-    background-color: coral;
     border-radius: 10px;
+    text-align: center;
 }
 
 footer
 {
     background-color: black;
-border-radius: 10px;
-
-  margin-top:10px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:10px;
+    height:50px;
+    border-radius: 10px;
 }
 
 
@@ -58,7 +63,8 @@ border-radius: 10px;
 
 
 
-#footerCesar, #footerplusdinfo {
+#footerCesar
+{
 	text-align: center;
 	margin-top: 10px;
 	padding-top: 10px;
@@ -67,9 +73,5 @@ border-radius: 10px;
 
 
 #footerCesar li { 
-	display: inline-block;
-}
-
-#footerplusdinfo li {
 	display: inline-block;
 }
