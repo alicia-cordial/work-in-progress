@@ -28,6 +28,44 @@ p
     font-family: sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+a
+{
+    color:white;
+}
+
+
+a:hover {
+  color: #ffcaab;
+}
+
+
+#listeNavTop {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+  font-family: "Space Mono", monospace;
+  border-radius: 25px;
+  
+}
 
 #container {
   margin: 80px;
