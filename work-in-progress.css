@@ -2,11 +2,13 @@ body
 {
     background-image: url(cesar.jpg);
     background-size: 100%;
+    background-size: 100%;
 }
 
 header {
   display: flex;
   justify-content: space-around;
+    
 }
 
 
@@ -23,17 +25,35 @@ li {
   text-align: right;
 }
 
+h1 
+{
+    color: red;
+}
 
+p
+{
+    color: solid black;
+    text-shadow: 1px 1px 2px white;
+    background-color: coral;
+    border-radius: 10px;
+}
 
+footer
+{
+    background-color: black;
+border-radius: 10px;
 
-
+  margin-top:10px;
+}
 
 
 #listeNavTop {
   display: flex;
-  background-color: #f7f1e4da;
+  background-color: black;
   padding: 20px;
   font-family: "Space Mono", monospace;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 10px;
 }
 
 
@@ -45,12 +65,11 @@ li {
 	padding-bottom: 10px;
 }
 
+
 #footerCesar li { 
 	display: inline-block;
-	
 }
 
 #footerplusdinfo li {
 	display: inline-block;
-	
 }
