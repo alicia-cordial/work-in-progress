@@ -15,12 +15,12 @@ h1
     text-align: center;
     font-family: monospace;
     font-size: 400%;
-   text-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px white;
 }
 
 p
 {
-    color: solid black;
+    color: deeppink;
     text-shadow: 5px 5px 10px white;
     border-radius: 10px;
     text-align: center;
@@ -49,12 +49,12 @@ li {
 
 a
 {
-    color:white;
+    color:gold;
 }
 
 
 a:hover {
-  color: #ffcaab;
+  color: silver;
 }
 
 
